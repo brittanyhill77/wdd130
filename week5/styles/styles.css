@@ -1,0 +1,26 @@
+body{
+    background-color: darkgray;
+    
+}
+#hero-image{
+    
+    
+}
+#hero-image img{
+width: 100%;
+}
+
+.icons{
+    box-sizing: border-box;
+    display: inline;
+    max-width: 100%;
+    
+}
+.icons img {
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: inline;
+    margin: 10px;
+    width: 30%;
+    border: 10px solid rgb(72, 72, 72);
+}
