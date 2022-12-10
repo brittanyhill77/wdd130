@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'BlackadderItc';
-    src: url(/blackadder/BITCBLKAD.ttf);
+    src: url(blackadder/BITCBLKAD.ttf) format('truetype');
 }
+
 
 *{
     font-size: 22px;
