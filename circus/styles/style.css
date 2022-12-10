@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'BlackadderItc';
+    src: url(/blackadder/BITCBLKAD.ttf);
+}
+
 *{
     font-size: 22px;
 }
@@ -5,12 +10,18 @@ body{
     background-color: #273024;
     box-sizing:border-box;
 }
+img{
+    max-width: 100%;
+}
 header{
     display: grid;
     grid-template-columns: 150px auto;  
+    background: rgb(39,48,36);
+background: linear-gradient(180deg, rgba(39,48,36,1) 30%, rgba(92,96,82,1) 100%, rgba(191,187,167,1) 80%);
 }
 p{
     font-family: Helvetica, Arial, sans-serif;
+    color: #bfbba7;
 }
 #logo-link{
     color: #bfbba7;
@@ -37,12 +48,19 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color:#bfbba7;
+    color:#fff;
     padding: 35px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'BlackadderItc', serif;
+    font-size: 1.5em;
+}
+nav a:hover{
+    color: #d7263d;
+    
 }
 
-
+h2{
+    font-family: 'BlackadderItc', 'Times New Roman', Times, serif;
+}
   /*Styles for index  */
   
 #hero-grid{
@@ -61,7 +79,9 @@ nav a{
     grid-column: 3/4;
     grid-row: 1/2;
     color:#bfbba7;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'BlackadderItc', serif;
+    font-size: 2.5em;
+    
 }
 .main-grid{
     display: grid;
@@ -126,6 +146,7 @@ h3{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2.5em;
     text-align: center;
+    font-family: 'BlackadderItc', serif;
 }
 #h3-1{
     grid-column: 1/6;  
@@ -190,11 +211,34 @@ p{
     grid-column: 2/4;
     grid-row: 10/11;
 }
-
 #dr-img{
     grid-column: 4/5;
     grid-row: 10/11;
 }
+
+/* Team Page */
+.team-grid{
+    margin: 0 100px;
+    
+}
+#team-hero{
+    width: 100%;
+    overflow: hidden;
+    
+    margin:  auto;
+} 
+#team-title{
+    color: #bfbba7;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'BlackadderItc', serif;
+}
+h2{
+    color: #bfbba7;
+    text-align: center;
+    font-size: 1.5em;
+}
+
 
 footer{
     background-color: #bfbba7;
